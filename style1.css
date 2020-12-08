@@ -1,0 +1,135 @@
+/* style.css */
+
+* {
+    margin: 3;
+}
+
+a {
+	color: #8B008B;
+	text-decoration: none;
+}
+
+/* Inicio Id*/
+
+#topo {
+
+    background-color: #66CDAA;  #483D8B
+	padding-top: 5px;
+	padding-bottom: 1px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Apple Chancery, cursive;
+
+}
+
+#menu {
+
+	background-color: #20B2AA;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 16px;
+	font-family: Apple Chancery, cursive;
+	
+}
+
+#icone-flutuante {
+	position: fixed;
+	right: 0;
+	top: 25%
+
+}
+
+#conteudo {
+
+	background-color: #58ACFA;
+	padding-top: 5px;
+	padding-bottom: 30px;
+	padding: 15px;
+    text-align: justify;
+	font-size: 16px;
+	font-family: Apple Chancery, cursive;
+
+}
+
+#imagem-pagprincipal{
+
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+
+}
+
+#imagem-conteudo{
+
+    text-align: left;
+    font-size: 13px;
+    padding: 10px;
+
+}
+
+#imagem-conteudo1{
+
+    text-align: right;
+    font-size: 13px;
+    padding: 10px;
+
+}
+
+#rodape{
+
+	background-color: #58FAF4;
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+	font-family: Apple Chancery, cursive;
+
+}
+
+/* Fim id*/
+
+/* Inicio Classe */
+
+.item-menu{
+
+	display: inline block;
+	padding-left: 5px;
+	font-size: 18px;
+	border-radius: 15px;
+	border: 3.5px solid #F68F28;
+	overflow: hidden;
+
+}
+
+.item-menu:hover{
+    
+	background-color: #58ACFA;
+	color: gold;
+	width: 500px;
+	font-size: 25px;
+	font-weight: 200px;
+	border: 2px solid #F68F28;
+	font-family: Apple Chancery, cursive;
+
+}
+
+.tamanho-corpo {
+
+	width: 92%;
+	margin: auto;
+	background-color: #1E90FF;
+	background-repeat: no-repeat;
+	font-family: Apple Chancery, cursive;
+
+}
+
+/* Fim Classe */
+
+/* Inicio Tag */
+
+main {​​​​
+    display: flex;
+}​​​​
+
+
+/* Fim Tag */
